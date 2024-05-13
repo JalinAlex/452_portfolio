@@ -103,18 +103,27 @@
     width: 65%;
     float: right;
     margin: 15px;
+    text-align: center;
 }
 
-.info p:nth-child(1){
-    background-color: #cecece;
-    padding: 10px;
-    text-align: center;
-    margin-right: 3%;
+/* table setting */
+table, td, th {
+    border: 1px solid black;
+}
+  
+table {
+    border-collapse: collapse;
+    width: 70%;
+    margin: auto;
+}
+  
+th {
+    height: 30px;
 }
 
-.info p:nth-child(2){
+
+.info p:nth-child(3){
     padding: 10px;
-    text-align: center;
     margin-right: 3%;
     font-weight: bolder;
     color: skyblue;
@@ -122,9 +131,8 @@
     font-size: xx-large;
 }
 
-.info p:nth-child(3){
+.info p:nth-child(4){
     padding: 10px;
-    text-align: center;
     margin-right: 3%;
     font-weight: bold;
     border: #000 3px solid;

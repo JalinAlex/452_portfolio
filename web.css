@@ -181,12 +181,8 @@ th {
     font-size: x-large;
 }
 
-.search img:nth-child(1){
-    width: 49%;
-}
-
-.search img:nth-child(2){
-    width: 44.5%;
+.search img{
+    width: 100%;
 }
 
 .search_highlight{
